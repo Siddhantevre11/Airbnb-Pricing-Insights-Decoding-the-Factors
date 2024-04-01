@@ -2,7 +2,7 @@
 
 [![Seattle](seattle.jpg)](https://mohamedirfansh.github.io/Airbnb-Data-Science-Project/)
 
-*Here is a quick overview of the project. The full analysis and findings can be viewed [here](https://mohamedirfansh.github.io/Airbnb-Data-Science-Project/).*
+
 
 ## 📖 Overview
 ### What are the factors and features of a listing that make an Airbnb listing in Seattle more expensive?  
