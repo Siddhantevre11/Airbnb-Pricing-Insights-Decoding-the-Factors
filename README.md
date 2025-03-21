@@ -26,6 +26,26 @@ We partitioned the data into train and test sets and evaluated the models on the
 
 ## Conclusion
 
+From the information above, by comparing the MSE (for test sets) and R^2 (for train sets) of the different models (in which the lower the MSE & higher the R^2 is, the more accurate it is), we can see which regression model is the best at predicting the price of a listing based on room_type, property_type, bedrooms, amenities and number_of_reviews.
+
+As seen from both validation methods, we can see that Random Forest Regression showed the best results, with the highest R^2 value and the lowest MSE value.
+
+The different graphs of True Values VS Predicting Values for each regression model (can be seen under the heading of the different models) can also give us a rough idea on which model is best at predicting. As such, our conclusion above can be said true as the graph of the Random Forest Regression generally has the most number of points situated near the diagonal line.
+
+Answering the Problem
+
+From all the analysis done, we can confidently answer our initial question of the factors that make a listing more expensive. An aspiring AirBnb host, if investing on a new property in Seattle, should focus on the following factors to maximize the price of his listing. Additionally a traveller who wants to pay the lowest possible price for a listing might want to avoid having these features in his prospective housing :
+
+Entire properties listed instead of just a single room fetch the highest prices.
+Apartment and landed house tend to be the most expensive and the most abundant properties in AirBnb.
+The more bedrooms a property has, the higher its price. The highest prices are fetched by 6 room properties.
+There are plenty of listings in 'Belltown' or 'West Queen Anne' and they tend to be expensive.
+Words like: 'view', 'modern' & 'walk' all frequently appear in the summary of the more expensive listing.
+Ammenities such as: 'Washer', Dryer', 'Heating', 'Wireless Internet', 'Smoke Detector', 'Free Parking', 'Kid Friendly', 'TV', 'HotTub/Sauna/Pool', 'Gyms' and 'Elevators' are all common among the more expensive listings.
+The reviews a listing gets (quality or quantity) does not have much of an impact in its price.
+
+## Analysis
+
 ![image](https://github.com/user-attachments/assets/89e44393-ce77-4ab0-b3eb-d9a9d8cc8eab)
 From all the analysis above, we can say a few things:
 
